@@ -150,7 +150,8 @@ return [
 
         webvolant\abadmin\AbAdminServiceProvider::class,
         webvolant\abslider\AbSliderServiceProvider::class,
-        webvolant\abposts\AbPostsServiceProvider::class
+        webvolant\abposts\AbPostsServiceProvider::class,
+        Tsawler\Laravelfilemanager\LaravelFilemanagerServiceProvider::class
 
 
     ],
@@ -204,8 +205,9 @@ return [
 
 
         'User' => webvolant\abadmin\Models\User::class,
+        'AbHtml' => webvolant\abadmin\Models\AbHtml::class,
         'Slider' => webvolant\abslider\Models\Slider::class,
-        'Post' => webvolant\abposts\Models\Post::class
+        'Post' => webvolant\abposts\Models\Post::class,
 
     ],
 

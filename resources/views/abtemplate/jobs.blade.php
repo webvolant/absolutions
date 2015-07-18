@@ -1,5 +1,9 @@
 @extends('abtemplate.index')
 
+@section('title')
+    @parent
+    Наши работы
+@stop
 
 @section('content')
     <div class="margintop"></div>

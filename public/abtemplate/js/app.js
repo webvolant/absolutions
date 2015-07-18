@@ -1,8 +1,20 @@
-var app = angular.module('myApp', ['ui.bootstrap','ngAnimate','ngSanitize'] );
+var app = angular.module('myApp', ["ngResource", "ngSanitize", 'ui.bootstrap', 'ngAnimate' ] );
 
 app.config(function($interpolateProvider) {
     $interpolateProvider.startSymbol('%%');
     $interpolateProvider.endSymbol('%%');
+});
+
+app.controller('appController', function ($scope, $http, $timeout) {
+    $scope.$on('LOAD',function(){$scope.loading=true});
+    $scope.$on('UNLOAD',function(){$scope.loading=false});
+});
+
+
+app.filter('html', function($sce) {
+    return function(val) {
+        return $sce.trustAsHtml(val);
+    };
 });
 
 app.filter('startFrom', function() {
@@ -18,13 +30,17 @@ app.filter('startFrom', function() {
 
 
 app.controller('frontCtrl', function ($scope, $http, $timeout) {
+    $scope.$emit('LOAD');
     $http.get('/getPosts').success(function(data){
         $scope.lister = data;
         $scope.currentPage = 1; //current page
         $scope.entryLimit = 7; //max no of items to display in a page
         $scope.filteredItems = $scope.lister.length; //Initially for no filter
         $scope.totalItems = $scope.lister.length;
-    });
+        $scope.$emit('UNLOAD');
+    }
+
+    );
 
     $scope.setPage = function(pageNo) {
         $scope.currentPage = pageNo;
@@ -50,14 +66,20 @@ app.controller('frontCtrl', function ($scope, $http, $timeout) {
 
 
 app.controller('sliderCtrl', function ($scope, $http, $timeout,$interval) {
+    $scope.$emit('LOAD');
+
 
     $http.get('/getSlides').success(function(data){
+
         $scope.slides = data;
         //$scope.currentPage = 1; //current page
         //$scope.entryLimit = 1; //max no of items to display in a page
         //$scope.filteredItems = $scope.list.length; //Initially for no filter
         //$scope.totalItems = $scope.list.length;
-    });
+            $scope.$emit('UNLOAD');
+    }
+
+    );
 
     $scope.currentIndex = 0;
 

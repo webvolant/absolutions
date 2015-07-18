@@ -2,13 +2,19 @@
 <html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
-    <title>AB solutions - веб студия</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <title>
+        @section('title')
+            AB solutions - разработка типовых и индивидуальных веб-проектов.
+        @show
+    </title>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="abtemplate/css/bootstrap.css">
+
 
     <link rel="stylesheet" type="text/css" href="abtemplate/loaders/loaders.css-master/loaders.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -26,7 +32,19 @@
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+    <script src="abtemplate/bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-sanitize.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-resource.js"></script>
+
+    <script src="abtemplate/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 
 
 
@@ -53,10 +71,28 @@
 
 
 </head>
-<body>
+<body ng-controller="appController">
 
 
-<div id="page-preloader"><div class="loader"><div class="loader-inner ball-triangle-path"><div></div><div></div><div></div></div></div></div>
+<div ng-show ="loading" id="page-preloader"><div class="loader"><div class="loader-inner ball-spin-fade-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div><div class="loader-inner ball-spin-fade-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div></div></div>
 
 
 
@@ -80,10 +116,11 @@
 
 
             <ul class="nav navbar-nav cl-effect-14">
-                <li><a href="{!! URL::to('/') !!}"><span class="glyphicon glyphicon-home2"></span> Дом</a></li>
-                <li><a href="{!! URL::route('jobs') !!}"><span class="glyphicon glyphicon-user2"></span> Работа</a></li>
-                <li><a href=""><span class="glyphicon glyphicon-plus2"></span> Контакты</a></li>
-                <!--<li><a href=""><span class="glyphicon glyphicon-plus2"></span> Клиенты</a></li>-->
+                <li><a href="{!! URL::to('/') !!}"><span class="glyphicon glyphicon-home"></span> Дом</a></li>
+                <li><a href="{!! URL::route('jobs') !!}"><i class="fa fa-sitemap"></i> Работа</a></li>
+                <!--<li><a href="{!! URL::route('partners') !!}"><span class="glyphicon glyphicon-user"></span> Клиенты</a></li>-->
+                <li><a href="{!! URL::route('contacts') !!}"><span class="glyphicon glyphicon-phone"></span> Контакты</a></li>
+
 
             </ul>
             <ul class="nav navbar-nav cl-effect-6 pull-right">
@@ -108,83 +145,85 @@
 <div class="fluid-container service">
     <div class="container ">
 
-        <h1 class="text-center"><span class="color"><i class="fa fa-tasks fa"></i> Наши</span> Услуги</h1>
+        <h1 class="text-center slideInUp wow"><span class="color"><i class="fa fa-tasks fa"></i> Наши</span> Услуги</h1>
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="pull-left service-icon text-center">
-                <i class="fa fa-diamond fa-3x text-center"></i>
+        <div class="slideInUp wow">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="pull-left service-icon text-center">
+                    <i class="fa fa-diamond fa-3x text-center"></i>
+                </div>
+                <h4>Дизайн</h4>
+                <p>Фирменный стиль это индивидуальность и неповторимость любого проекта.</p>
             </div>
-            <h4>Дизайн</h4>
-            <p>Фирменный стиль это индивидуальность и неповторимость любого проекта.</p>
-        </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="pull-left service-icon text-center">
-                <i class="fa fa-cogs fa-3x text-center"></i>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="pull-left service-icon text-center">
+                    <i class="fa fa-cogs fa-3x text-center"></i>
+                </div>
+                <h4>Разработка</h4>
+                <p>Наша основная специализация - программирование функционала. Мы это делаем правильно, современно и своевременно.</p>
             </div>
-            <h4>Разработка</h4>
-            <p>Наша основная специализация - программирование функционала. Мы это делаем правильно, современно и своевременно.</p>
-        </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="pull-left service-icon text-center">
-                <i class="fa fa-code fa-3x text-center"></i>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="pull-left service-icon text-center">
+                    <i class="fa fa-code fa-3x text-center"></i>
+                </div>
+                <h4>Верстка</h4>
+                <p>У вас есть макет, но вы не знаете что с ним делать. Без верстки никуда - это наш конек!</p>
             </div>
-            <h4>Верстка</h4>
-            <p>У вас есть макет, но вы не знаете что с ним делать. Без верстки никуда - это наш конек!</p>
-        </div>
 
-        <div class="clear"></div>
+            <div class="clear"></div>
 
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="pull-left service-icon text-center">
-                <i class="fa fa-life-saver fa-3x text-center"></i>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="pull-left service-icon text-center">
+                    <i class="fa fa-life-saver fa-3x text-center"></i>
+                </div>
+                <h4>Поддержка</h4>
+                <p>Для взаимного спокойствия и уверенности в будущем, мы всегда сопровождаем свои проекты. </p>
             </div>
-            <h4>Поддержка</h4>
-            <p>Для взаимного спокойствия и уверенности в будущем, мы всегда сопровождаем свои проекты. </p>
-        </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="pull-left service-icon text-center">
-                <i class="fa fa-user-secret fa-3x text-center"></i>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="pull-left service-icon text-center">
+                    <i class="fa fa-user-secret fa-3x text-center"></i>
+                </div>
+                <h4>Консультации</h4>
+                <p>Оперативно проконсультируем вас в любых возникших вопросах. </p>
             </div>
-            <h4>Консультации</h4>
-            <p>Оперативно проконсультируем вас в любых возникших вопросах. </p>
         </div>
-
     </div>
 </div>
 
 <div class="fluid-container best_of_best">
     <div class="container">
         <div class="shadows"></div>
-        <h3 class="text-center"><span class="color"><i class="fa fa-database fa"></i> Наши</span> Преимущества</h3>
+        <h3 class="text-center slideInUp wow"><span class="color"><i class="fa fa-database fa"></i> Наши</span> Преимущества</h3>
 
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <h4><i class="fa fa-flag-checkered fa-2x text-center"></i> Разработка как типовых так и индивидуальных проектов.</h4>
+        <div class="slideInUp wow">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h4><i class="fa fa-flag-checkered fa-2x text-center"></i> Разработка как типовых так и индивидуальных проектов.</h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h4><i class="fa fa-cubes fa-2x text-center"></i> Создание эффективных, практичных и красивых продуктов</h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h4><i class="fa fa-trophy fa-2x text-center"></i> Использование лучших современных решений.</h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h4><i class="fa fa-graduation-cap fa-2x text-center"></i> Консультации и помощь в вопросах.</h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h4><i class="fa fa-lock fa-2x text-center"></i> Обеспечение надежности и безопасности.</h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h4><i class="fa fa-certificate fa-2x text-center"></i> Ответственность за результат.</h4>
+            </div>
         </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <h4><i class="fa fa-cubes fa-2x text-center"></i> Создание эффективных, практичных и красивых продуктов</h4>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <h4><i class="fa fa-trophy fa-2x text-center"></i> Использование лучших современных решений.</h4>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <h4><i class="fa fa-graduation-cap fa-2x text-center"></i> Консультации и помощь в вопросах.</h4>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <h4><i class="fa fa-lock fa-2x text-center"></i> Обеспечение надежности и безопасности.</h4>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <h4><i class="fa fa-certificate fa-2x text-center"></i> Ответственность за результат.</h4>
-        </div>
-
 
 
 
@@ -201,36 +240,30 @@
 
 </div>
 
-@show
 
 <div class="fluid-container clients">
     <div class="container">
         <div class="shadows2"></div>
         <h3 class="text-center"><span class="color"><i class="fa fa-code-fork"></i> Наши</span> Клиенты</h3>
 
-        <div class="cl_logo_wrap">
-            <img class="client_logo" src="/public/clients/my-doc.png"/>
-        </div>
-
-
-        <div class="cl_logo_wrap">
-            <img class="client_logo" src="/public/clients/emblemkg.png"/>
-        </div>
-
-
-        <div class="cl_logo_wrap">
-            <img class="client_logo" src="/public/clients/Logo_Goscarto.png"/>
-        </div>
-
-        <div class="cl_logo_wrap">
-            <img class="client_logo" src="/public/clients/zweifach.png"/>
-        </div>
-
+        {!! \AbHtml::where('title','=','Партнеры')->first()->description !!}
 
     </div>
 
 </div>
 
+
+<div class="fluid-container clients">
+    <div class="container">
+        <div class="shadows2"></div>
+        <h3 class="text-center"><span class="color"><i class="fa fa-code"></i> Мы используем</span> в работе</h3>
+
+        {!! \AbHtml::where('title','=','В работе мы используем')->first()->description !!}
+
+    </div>
+
+</div>
+@show
 
 <div class="fluid-container footer">
     <div class="container">
@@ -238,7 +271,7 @@
 
 
         <div class="hr"></div>
-        <p class="pull-left">Copyright © 2014-2015 AB SOLUTIONS</p>
+        <p class="pull-left">Copyright © <?php echo date('Y'); ?> AB SOLUTIONS</p>
     </div>
 
 </div>
@@ -271,70 +304,77 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-animate.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular-sanitize.js"></script>
 <script src="abtemplate/js/app.js"></script>
-<script src="abtemplate/js/bl_slider.js"></script>
 
 
 </body>
 
 <div class="contact_form">
-        <div class="box-tools pull-right">
-            <button ng-controller="rotateCtrl" ng-click="rotate_back()" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-            <button ng-controller="rotateCtrl" ng-click="rotate_back()" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
-        </div>
 
-    {!! Form::open(array('route' => 'slider/add', 'method' => 'post', 'role' => 'form', 'files' => 'true', 'class' => 'form')) !!}
-
-
-
-
-    <?php //echo Form::token(); ?>
-
-    <div class="row">
-        <div class="col-xs-8">
-            <div class="form-group has-feedback">
-                {!! Form::text('title',null, array('class'=>'form-control', 'placeholder'=>'Тема сообщения')) !!}
-                <span class="glyphicon glyphicon-unchecked form-control-feedback"></span>
-                @if ($errors->first('title'))
-                <div class="alert alert-danger" role="alert"><?php echo $errors->first('title'); ?></div>
-                @else
-                @endif
-            </div>
-
-            <div class="form-group has-feedback">
-                {!! Form::email('email', null, array('class'=>'form-control', 'placeholder'=>'emailname@provider.prefix')) !!}
-                <span class="glyphicon glyphicon-unchecked form-control-feedback"></span>
-                @if ($errors->first('email'))
-                <div class="alert alert-danger" role="alert"><?php echo $errors->first('email'); ?></div>
-                @else
-                @endif
-            </div>
-
-            <div class="form-group">
-                {!! Form::textarea('description', null, array('id'=>'description', 'class'=>'form-control', 'placeholder'=>'Описание')) !!}
-                @if ($errors->first('description'))
-                <div class="alert alert-danger" role="alert"><?php echo $errors->first('description'); ?></div>
-                @else
-                @endif
-            </div>
-
-        </div><!-- /.col -->
-
-    </div><!-- /.row -->
-    <div class="box-header with-border admin-tools">
-        <button class="btn btn-primary btn-flat" type="submit"><i class="fa fa-save"></i> Сохранить</button>
-        <a href="{!! \URL::route('slider/index') !!}" class="btn btn-warning btn-flat"><i class="fa fa-undo fa-fw"></i> Отменить</a>
+    <div class="box-tools pull-right">
+        <button ng-controller="rotateCtrl" ng-click="rotate_back()" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+        <button ng-controller="rotateCtrl" ng-click="rotate_back()" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
     </div>
 
-    {!! \Form::close() !!}
+    <div class="clear"></div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            Отправка сообщения
+        </h3>
+    </div>
+    <div class="panel-body">
+
+            {!! Form::open(array('route' => 'contacts', 'method' => 'post', 'role' => 'form', 'files' => 'true', 'class' => 'form')) !!}
+            <?php //echo Form::token(); ?>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-group has-feedback">
+                        {!! Form::text('title',null, array('class'=>'form-control', 'placeholder'=>'Тема сообщения')) !!}
+                        <span class="glyphicon glyphicon-comment form-control-feedback"></span>
+                        @if ($errors->first('title'))
+                        <div class="alert alert-danger" role="alert"><?php echo $errors->first('title'); ?></div>
+                        @else
+                        @endif
+                    </div>
+
+                    <div class="form-group has-feedback">
+                        {!! Form::email('email', null, array('class'=>'form-control', 'placeholder'=>'emailname@provider.prefix')) !!}
+                        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                        @if ($errors->first('email'))
+                        <div class="alert alert-danger" role="alert"><?php echo $errors->first('email'); ?></div>
+                        @else
+                        @endif
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::textarea('description', null, array('id'=>'description', 'class'=>'form-control', 'placeholder'=>'Описание')) !!}
+                        @if ($errors->first('description'))
+                        <div class="alert alert-danger" role="alert"><?php echo $errors->first('description'); ?></div>
+                        @else
+                        @endif
+                    </div>
+
+                </div><!-- /.col -->
+
+            </div><!-- /.row -->
+
+        <div class="pull-right">
+            <button class="btn btn-info btn" type="submit"><i class="fa fa-save"></i> Отправить</button>
+            <a href="" ng-controller="rotateCtrl" ng-click="rotate_back()" class="btn btn-danger btn"><i class="fa fa-undo fa-fw"></i> Отменить</a>
+        </div>
+        {!! \Form::close() !!}
+
+    </div>
+    <div class="panel-footer">
+
+    </div>
+</div>
+
 
 </div>
 
@@ -351,14 +391,15 @@
 </script>
 
 
+
 <script>
 
-    $(window).on('load', function () {
+    /*$(window).on('load', function () {
         var $preloader = $('#page-preloader'),
             $spinner   = $preloader.find('.loader');
+        $preloader.fadeOut();
         $spinner.fadeOut();
-        $preloader.fadeOut('fast');
-    });
+    });*/
 
     $( document ).ready(function() {
         //var hostname = $('<a>').prop('href', url).prop('hostname');
@@ -373,11 +414,13 @@
             else if (scrollY > 0 && (domain==href || domain2==href || domain3==href) )
                 jQuery('.topmenu').css({'background':'rgba(23, 60, 78, 0.8)'}).addClass('duration');
             else
-                jQuery('.topmenu').css({'background':'rgb(20, 152, 191)'}).removeClass('duration');
+                jQuery('.topmenu').css({'background':'rgba(87, 203, 237, 0.9)'}).removeClass('duration');
 
         }, 200);
 
     });
+
+
 
 
 

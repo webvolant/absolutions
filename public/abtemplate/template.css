@@ -41,7 +41,7 @@ a.button{
 }
 
 .color{
-    color: #2490BC;
+    color: #2490bc;
 }
 
 .service{
@@ -148,8 +148,15 @@ a.button{
     background-color: rgba(39, 171, 199, 0.73)
 }
 
+
 .content{
-    padding-bottom: 75px;
+    background: white;
+
+}
+
+.map_per{
+
+
 }
 
 .wrapper{
@@ -175,6 +182,42 @@ a.button{
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
+}
+
+/*==================================================
+ * Effect 6
+ * ===============================================*/
+.effect6
+{
+    position:relative;
+    -webkit-box-shadow:0px 8px 7px rgba(23, 24, 24, 0.44);
+    -moz-box-shadow:0px 8px 7px rgba(23, 24, 24, 0.44);
+    box-shadow: 0px 8px 7px rgba(23, 24, 24, 0.44);
+}
+.effect6:before, .effect6:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect6:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+    -moz-transform:skew(8deg) rotate(3deg);
+    -ms-transform:skew(8deg) rotate(3deg);
+    -o-transform:skew(8deg) rotate(3deg);
+    transform:skew(8deg) rotate(3deg);
 }
 
 .perspective_main_back{
@@ -290,7 +333,10 @@ a.button{
 
 
 
-
+ul.contacts li{
+    list-style: none;
+    float: left;
+}
 
 
 
@@ -331,6 +377,7 @@ li.item{
 .cover_portfolio{
     height:300px;
     background-size: cover;
+    background-position: center;
     box-shadow: inset 0px 0px 22px -6px #888;
 }
 
@@ -357,7 +404,7 @@ li.item{
     display: table-cell;
     vertical-align: middle;
     background: #fff;
-    padding: 30px;
+    padding-left: 30px;
     box-sizing: border-box;
 
     color: #2a2a2a;
@@ -366,14 +413,13 @@ li.item{
 }
 
 .description_portfolio img{
-    height: 75px;
-    width: 135px;
     float: none;
 
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
+    opacity: 0.6;
     opacity: 0.6;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -436,6 +482,7 @@ li.item{
 
 .clear{
     clear: both;
+    padding:10px;
 }
 
 
@@ -601,13 +648,41 @@ ul.slide{
     height: 100%;
 }
 
+.animated-class-map,
+.animated-class-map.ng-hide-remove.ng-hide-remove-active {
+    -webkit-animation: fadeInX 1s;
+    -moz-animation: fadeInX 1s;
+    -ms-animation: fadeInX 1s;
+    animation: fadeInX 1s;
+    opacity: 1;
+    -webkit-transform: perspective(800px) rotateX(40deg) rotateY(0deg) rotateZ(0deg);
+    -moz-transform: perspective(800px) rotateX(40deg) rotateY(0deg) rotateZ(0deg);
+    -o-transform: perspective(800px) rotateX(40deg) rotateY(0deg) rotateZ(0deg);
+    -ms-transform: perspective(800px) rotateX(40deg) rotateY(0deg) rotateZ(0deg);
+    transform: perspective(800px) rotateX(40deg) rotateY(0deg) rotateZ(0deg);
+    position: relative;
+    float:right;
+    right:10%;
+}
+
+
+
+.animated-class-map.ng-hide-add {
+    -webkit-animation: fadeOut 0.1s;
+    -moz-animation: fadeOut 0.1s;
+    -ms-animation: fadeOut 0.1s;
+    animation: fadeOut 0.1s;
+    opacity: 0;
+}
+
+
 
 .animated-class,
 .animated-class.ng-hide-remove.ng-hide-remove-active {
-        -webkit-animation: rollIn 1s;
-        -moz-animation: rollIn 1s;
-        -ms-animation: rollIn 1s;
-        animation: rollIn 1s;
+        -webkit-animation: fadeInLeft 1s;
+        -moz-animation: fadeInLeft 1s;
+        -ms-animation: fadeInLeft 1s;
+        animation: fadeInLeft 1s;
         opacity: 1;
     }
 
@@ -621,8 +696,28 @@ ul.slide{
         opacity: 0;
     }
 
+.animated-class-right,
+.animated-class-right.ng-hide-remove.ng-hide-remove-active {
+    -webkit-animation: fadeInDown 1s;
+    -moz-animation: fadeInDown 1s;
+    -ms-animation: fadeInDown 1s;
+    animation: fadeInDown 1s;
+    opacity: 1;
+    left: 5%;
+    position: relative;
+}
 
 
+
+.animated-class-right.ng-hide-add {
+    -webkit-animation: fadeOut 0.1s;
+    -moz-animation: fadeOut 0.1s;
+    -ms-animation: fadeOut 0.1s;
+    animation: fadeOut 0.1s;
+    opacity: 0;
+    left: 5%;
+    position: relative;
+}
 
 
 .slide.ng-hide-remove {
@@ -694,13 +789,50 @@ ul.slide{
 }
 
 .cl_logo_wrap{
+    height:60px;
+    float: left;
+}
+
+.cl_logo_wrap img{
+    margin-left: 15px;
+
 }
 
 .client_logo{
-    height: 90px;
+    margin-left: 20px;
+    height: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.client_logo:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+.client_logo_fon{
+    height: 120px;
     float: left;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
     position: relative;
-    margin-right: 30px;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -713,7 +845,7 @@ ul.slide{
     transition: all 0.5s ease;
 }
 
-.client_logo:hover{
+.client_logo_fon:hover{
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     -o-filter: grayscale(0%);
@@ -729,11 +861,11 @@ ul.slide{
 }
 
 .clients{
-    padding: 20px;
+    padding: 10px;
     background-color: #ffffff;
     position: relative;
     color: #737373;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
 }
 
 .dark{
@@ -745,6 +877,84 @@ ul.slide{
 
 .footer{
     background: rgba(15, 148, 187, 0.80);
-    position: relative;
     color:rgba(255, 255, 255, 0.8);
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.animate-repeat {
+    /*box-sizing:border-box;*/
+    -webkit-transition: 1s linear all;
+    transition: 1s linear all;
+}
+
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter,
+.animate-repeat.ng-leave {
+    -webkit-transition:all linear 0.5s;
+    transition:all linear 0.5s;
+}
+
+.animate-repeat.ng-leave.ng-leave-active,
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter {
+    opacity:0;
+    -webkit-animation: fadeOut 1s;
+    -moz-animation: fadeOut 1s;
+    -ms-animation: fadeOutLeft 1s;
+    animation: fadeOutLeft 1s;
+}
+
+.animate-repeat.ng-leave,
+.animate-repeat.ng-move.ng-move-active,
+.animate-repeat.ng-enter.ng-enter-active {
+    opacity:1;
+    -webkit-animation: fadeInLeft 1s;
+    -moz-animation: fadeInLeft 1s;
+    -ms-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+
+}
+
+/**
+ * Stagger Leave (hide) animation
+ */
+.animate-repeat.ng-leave-stagger {
+    /* this will have a 100ms delay between each successive leave animation */
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+
+    /* in case the stagger doesn't work then these two values
+     must be set to 0 to avoid an accidental CSS inheritance */
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+/**
+ * Stagger ENTER ANIMATION
+ */
+.animate-repeat.ng-enter-stagger {
+    /* this will have a 100ms delay between each successive enter animation */
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+
+    /* in case the stagger doesn't work then these two values
+     must be set to 0 to avoid an accidental CSS inheritance */
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
 }

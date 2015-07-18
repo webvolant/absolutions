@@ -23,98 +23,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="258" column="72" selection-start="8789" selection-end="8789" vertical-scroll-proportion="-13.730769" vertical-offset="4029" max-vertical-offset="7514">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobs.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/jobs.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="5" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/contact.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="5" selection-start="74" selection-end="78" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="2006">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/abtemplate/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="31" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2907">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="slider.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/views/frontend/slider.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="116" selection-start="166" selection-end="223" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="833">
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="18" column="4" selection-start="612" selection-end="661" vertical-scroll-proportion="-9.807693" vertical-offset="51" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/abtemplate/template.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="867" column="22" selection-start="16269" selection-end="16269" vertical-scroll-proportion="0.488117" vertical-offset="14472" max-vertical-offset="16405">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/html/backend/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="359" column="31" selection-start="12195" selection-end="12195" vertical-scroll-proportion="-11.254902" vertical-offset="5529" max-vertical-offset="6783">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/abtemplate/template.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="301" column="20" selection-start="5414" selection-end="5414" vertical-scroll-proportion="-3.88" vertical-offset="5020" max-vertical-offset="12835">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="590" selection-end="590" vertical-scroll-proportion="0.37362638" vertical-offset="153" max-vertical-offset="935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="40" selection-start="509" selection-end="509" vertical-scroll-proportion="-11.769231" vertical-offset="17" max-vertical-offset="884">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="884">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbSliderServiceProvider.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/src/AbSliderServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="5" selection-start="2723" selection-end="2723" vertical-scroll-proportion="-58.923077" vertical-offset="83" max-vertical-offset="1751">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbAdminServiceProvider.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/AbAdminServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="28" selection-start="1537" selection-end="1537" vertical-scroll-proportion="-11.5" vertical-offset="551" max-vertical-offset="2057">
+            <state line="67" column="29" selection-start="2470" selection-end="2470" vertical-scroll-proportion="-43.807693" vertical-offset="0" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/routes.php">
+        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.6923077" vertical-offset="103" max-vertical-offset="969">
-              <folding>
-                <element signature="e#7#37#0" expanded="true" />
-              </folding>
+            <state line="10" column="60" selection-start="249" selection-end="249" vertical-scroll-proportion="-2.1923077" vertical-offset="45" max-vertical-offset="578">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/views/frontend/posts.blade.php">
+      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="103" selection-start="2612" selection-end="2612" vertical-scroll-proportion="-5.8846154" vertical-offset="510" max-vertical-offset="1360">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="85" column="100" selection-start="4039" selection-end="4039" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="2975">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/add.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="100" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2958">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,64 +123,64 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vendor/webvolant/slider/src/routes.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/src/AbSliderServiceProvider.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/Http/Middleware/CheckRoleAdministrator.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/Http/Middleware/CheckRoleManager.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/login.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/src/database/migrations/2015_07_02_171149_create_sliders_table.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/src/Http/Controllers/FrontSliderController.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/index.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/src/config/config.php" />
-        <option value="$PROJECT_DIR$/config/image.php" />
-        <option value="$PROJECT_DIR$/public/.htaccess" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/src/Http/Controllers/SliderController.php" />
-        <option value="$PROJECT_DIR$/public/abtemplate/css/component_links_effects.css" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/add.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/views/frontend/slider.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/src/routes.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/AbPostsServiceProvider.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Models/Slider.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/src/Http/Middleware/CheckRoleAdministrator.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Middleware/CheckRoleManager.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Middleware/CheckRoleAdministrator.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Controllers/FrontSliderController.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Models/Post.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/database/migrations/2015_07_06_171149_create_posts_table.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/add.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/edit.blade.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/admin.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PortfolioController.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Controllers/FrontPostController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/abtemplate/index.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/edit.blade.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/index.blade.php" />
-        <option value="$PROJECT_DIR$/public/abtemplate/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/views/abtemplate/jobs.blade.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/config/config.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Controllers/PostController.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/views/frontend/posts.blade.php" />
-        <option value="$PROJECT_DIR$/public/abtemplate/template.css" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/AbAdminServiceProvider.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/routes.php" />
-        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/composer.json" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/composer.json" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abslider/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/AbAdminServiceProvider.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/filemanager-laravel/filemanager/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FilemanagerLaravelController.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/config/config.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/edit.blade.php" />
+        <option value="$PROJECT_DIR$/config/lfm.php" />
+        <option value="$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/dist/css/bootstrap-theme.css" />
+        <option value="$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/variables.less" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/resources/views/emails/welcome.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/views/frontend/posts.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/clients/backend/add.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/clients/backend/edit.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/clients/backend/index.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/routes.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/Models/Html.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/database/migrations/2015_07_02_171160_create_htmls_table.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/admin.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/Models/AbHtml.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/src/Http/Controllers/HtmlController.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/html/backend/add.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/html/backend/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PortfolioController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/abtemplate/clients.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/add.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/add.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/edit.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abslider/views/frontend/slider.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/routes.php" />
+        <option value="$PROJECT_DIR$/public/abtemplate/js/app.js" />
+        <option value="$PROJECT_DIR$/vendor/webvolant/abadmin/views/html/backend/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/abtemplate/contact.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/abtemplate/jobs.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/abtemplate/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/abtemplate/template.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="62" />
+    <option name="x" value="215" />
+    <option name="y" value="173" />
     <option name="width" value="1364" />
     <option name="height" value="728" />
   </component>
@@ -296,6 +290,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -319,7 +317,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,10 +370,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,6 +455,238 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webvolant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webvolant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webvolant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webvolant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webvolant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webvolant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webvolant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webvolant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -479,7 +709,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="abposts" />
+              <option name="myItemId" value="abadmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -513,7 +743,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="abposts" />
+              <option name="myItemId" value="abadmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -521,81 +751,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webvolant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abposts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webvolant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abadmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webvolant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abadmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,6 +778,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,6 +804,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,24 +876,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clients" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -748,6 +916,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -816,18 +1030,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\server\OpenServer\domains\portfolio\vendor\webvolant\abposts\public" />
-      <recent name="D:\server\OpenServer\domains\portfolio\vendor\webvolant\abslider" />
-      <recent name="D:\server\OpenServer\domains\portfolio\public\abtemplate\css" />
-      <recent name="D:\server\OpenServer\domains\portfolio\public" />
-      <recent name="D:\server\OpenServer\domains\portfolio\public\abtemplate" />
+      <recent name="D:\server\OpenServer\domains\portfolio\resources\views\abtemplate" />
+      <recent name="D:\server\OpenServer\domains\portfolio\vendor\webvolant\abadmin\src\database\migrations" />
+      <recent name="D:\server\OpenServer\domains\portfolio\vendor\webvolant\abadmin\src\Models" />
+      <recent name="D:\server\OpenServer\domains\portfolio\vendor\webvolant\abadmin\src\Http\Controllers" />
+      <recent name="D:\server\OpenServer\domains\portfolio\vendor\webvolant\abadmin\views\clients\backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\server\OpenServer\domains\portfolio\database" />
       <recent name="D:\server\OpenServer\domains\portfolio\vendor\webvolant\abposts" />
       <recent name="D:\server\OpenServer\domains\portfolio\public" />
       <recent name="D:\server\OpenServer\domains\portfolio\tests" />
       <recent name="D:\server\OpenServer\domains\portfolio\vendor\webvolant\abadmin" />
-      <recent name="D:\server\OpenServer\domains\portfolio" />
     </key>
   </component>
   <component name="RunManager">
@@ -856,7 +1070,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="62" width="1364" height="728" extended-state="0" />
+    <frame x="215" y="173" width="1364" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -872,11 +1086,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -898,7 +1112,159 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/images/arrow-up.png">
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/button-groups.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/.csscomb.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4241878" vertical-offset="789" max-vertical-offset="1343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/docs/getting-started.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3264" column="0" selection-start="62106" selection-end="62106" vertical-scroll-proportion="0.029310346" vertical-offset="55471" max-vertical-offset="115702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/user/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="28" selection-start="2689" selection-end="2761" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="3757" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/buttons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.8601134" vertical-offset="2161" max-vertical-offset="2924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.94464946" vertical-offset="512" max-vertical-offset="1054" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.9281664" vertical-offset="1020" max-vertical-offset="5049" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="29" selection-start="3528" selection-end="3528" vertical-scroll-proportion="-23.486841" vertical-offset="0" max-vertical-offset="14841" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="509" selection-end="509" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="832" selection-end="832" vertical-scroll-proportion="-14.307693" vertical-offset="104" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.33882785" vertical-offset="185" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="41" selection-start="462" selection-end="2601" vertical-scroll-proportion="-34.076923" vertical-offset="270" max-vertical-offset="2363" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="6" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-6.5384617" vertical-offset="816" max-vertical-offset="2210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/views/frontend/posts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="61" selection-start="421" selection-end="421" vertical-scroll-proportion="0.24548736" vertical-offset="0" max-vertical-offset="1343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/html/frontend/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/user/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="26" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3689" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="113" selection-start="2573" selection-end="2573" vertical-scroll-proportion="-12.807693" vertical-offset="517" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="69" selection-end="69" vertical-scroll-proportion="0.15567766" vertical-offset="0" max-vertical-offset="546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/AbAdminServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="47" selection-start="1456" selection-end="1456" vertical-scroll-proportion="-28.115385" vertical-offset="102" max-vertical-offset="2057" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/database/migrations/2015_07_02_171160_create_htmls_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="181" selection-end="181" vertical-scroll-proportion="-5.1923075" vertical-offset="1" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="296" column="48" selection-start="14651" selection-end="14651" vertical-scroll-proportion="-12.5" vertical-offset="4622" max-vertical-offset="14076" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="47" selection-start="8464" selection-end="8464" vertical-scroll-proportion="-13.153846" vertical-offset="3177" max-vertical-offset="3740" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/Models/AbHtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="140" selection-end="140" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/Http/Controllers/HtmlController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="459" selection-end="459" vertical-scroll-proportion="-6.5384617" vertical-offset="153" max-vertical-offset="1394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_07_02_171160_create_htmls_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/html/backend/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="100" selection-start="3543" selection-end="3543" vertical-scroll-proportion="15.692307" vertical-offset="1700" max-vertical-offset="2652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/images/logo1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -908,320 +1274,120 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/images/logo1.png">
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/images/ablogo.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/images/section-shadows-lg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="49" selection-start="2072" selection-end="2072" vertical-scroll-proportion="-7.576923" vertical-offset="840" max-vertical-offset="1598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/src/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="423" selection-end="423" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="51" selection-end="51" vertical-scroll-proportion="0.05944056" vertical-offset="0" max-vertical-offset="572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="129" selection-end="129" vertical-scroll-proportion="0.17832167" vertical-offset="0" max-vertical-offset="572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="512" selection-end="512" vertical-scroll-proportion="0.5097002" vertical-offset="0" max-vertical-offset="567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/js/bl_slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/js/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6340641" vertical-offset="969" max-vertical-offset="1904" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/css/component_links_effects.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="42" selection-start="5011" selection-end="5011" vertical-scroll-proportion="0.0" vertical-offset="3449" max-vertical-offset="17051">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/src/Http/Middleware/CheckRoleAdministrator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/src/Http/Middleware/CheckRoleManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Middleware/CheckRoleAdministrator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="26" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="733" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Middleware/CheckRoleManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="99" selection-end="99" vertical-scroll-proportion="0.06957708" vertical-offset="0" max-vertical-offset="733" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="34" selection-end="34" vertical-scroll-proportion="0.04557641" vertical-offset="0" max-vertical-offset="746" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/Models/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="143" selection-end="143" vertical-scroll-proportion="0.22788204" vertical-offset="0" max-vertical-offset="746">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/database/migrations/2015_07_06_171149_create_posts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="938" selection-end="938" vertical-scroll-proportion="-22.153847" vertical-offset="138" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="54" selection-start="8469" selection-end="8469" vertical-scroll-proportion="-96.76923" vertical-offset="306" max-vertical-offset="3349" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="34" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.3042292" vertical-offset="406" max-vertical-offset="2924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="54" selection-start="8455" selection-end="8455" vertical-scroll-proportion="-22.807692" vertical-offset="2926" max-vertical-offset="3706" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="709" selection-end="709" vertical-scroll-proportion="0.44275862" vertical-offset="104" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/src/Http/Controllers/FrontSliderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/src/Http/Controllers/SliderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="65" selection-start="3110" selection-end="3110" vertical-scroll-proportion="-0.027472528" vertical-offset="1171" max-vertical-offset="2584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/src/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1056" selection-end="1219" vertical-scroll-proportion="0.7523452" vertical-offset="7" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="292" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="42" selection-start="13340" selection-end="13340" vertical-scroll-proportion="-0.15947467" vertical-offset="4675" max-vertical-offset="14025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.18681319" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.4108818" vertical-offset="53" max-vertical-offset="646">
-          <folding>
-            <element signature="e#7#37#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PortfolioController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="207" selection-end="437" vertical-scroll-proportion="0.6849817" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
+        <state line="22" column="42" selection-start="389" selection-end="389" vertical-scroll-proportion="-8.923077" vertical-offset="125" max-vertical-offset="969" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Controllers/FrontPostController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="490" selection-end="490" vertical-scroll-proportion="0.5915751" vertical-offset="0" max-vertical-offset="546">
-          <folding>
-            <element signature="e#140#176#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="7" column="44" selection-start="305" selection-end="305" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/clients.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="618" selection-end="618" vertical-scroll-proportion="-7.1923075" vertical-offset="255" max-vertical-offset="1598">
+        <state line="20" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/html/backend/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="100" selection-start="3299" selection-end="3478" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2652">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="46" selection-start="1830" selection-end="1830" vertical-scroll-proportion="-14.461538" vertical-offset="440" max-vertical-offset="3332">
+        <state line="101" column="34" selection-start="5111" selection-end="5111" vertical-scroll-proportion="0.0" vertical-offset="1239" max-vertical-offset="3366">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/views/backend/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="2819" selection-end="2819" vertical-scroll-proportion="0.6378987" vertical-offset="561" max-vertical-offset="1887">
+        <state line="111" column="100" selection-start="5608" selection-end="5608" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3417">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/js/app.js">
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="29" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2533">
+        <state line="84" column="100" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2958">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/views/backend/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="56" selection-start="7106" selection-end="7112" vertical-scroll-proportion="-15.884615" vertical-offset="2001" max-vertical-offset="2941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/jobs.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <marker date="1436451476448" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1436451476448" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="22" selection-start="4278" selection-end="4278" vertical-scroll-proportion="-5.1923075" vertical-offset="1633" max-vertical-offset="2618">
+        <state line="85" column="100" selection-start="4039" selection-end="4039" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="2975">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="361" selection-end="361" vertical-scroll-proportion="-6.1153846" vertical-offset="28" max-vertical-offset="663">
+        <state line="16" column="2" selection-start="428" selection-end="428" vertical-scroll-proportion="0.4981685" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="60" selection-start="249" selection-end="249" vertical-scroll-proportion="-2.1923077" vertical-offset="45" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/views/html/backend/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="29" selection-start="2470" selection-end="2470" vertical-scroll-proportion="-43.807693" vertical-offset="0" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/views/frontend/slider.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="116" selection-start="166" selection-end="223" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="833">
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="18" column="4" selection-start="612" selection-end="661" vertical-scroll-proportion="-9.807693" vertical-offset="51" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="74" selection-end="78" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/jobs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="408">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="359" column="31" selection-start="12195" selection-end="12195" vertical-scroll-proportion="-11.254902" vertical-offset="5529" max-vertical-offset="6783">
+        <state line="258" column="72" selection-start="8789" selection-end="8789" vertical-scroll-proportion="-13.730769" vertical-offset="4029" max-vertical-offset="7514">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/views/frontend/posts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="103" selection-start="2612" selection-end="2612" vertical-scroll-proportion="-5.8846154" vertical-offset="510" max-vertical-offset="1360">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/abtemplate/template.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="301" column="20" selection-start="5414" selection-end="5414" vertical-scroll-proportion="-3.88" vertical-offset="5020" max-vertical-offset="12835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/AbAdminServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="28" selection-start="1537" selection-end="1537" vertical-scroll-proportion="-11.5" vertical-offset="551" max-vertical-offset="2057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/src/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.6923077" vertical-offset="103" max-vertical-offset="969">
-          <folding>
-            <element signature="e#7#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/src/AbPostsServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="313" selection-end="313" vertical-scroll-proportion="0.34615386" vertical-offset="83" max-vertical-offset="1751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abposts/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="509" selection-end="509" vertical-scroll-proportion="-11.769231" vertical-offset="17" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abslider/src/AbSliderServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="5" selection-start="2723" selection-end="2723" vertical-scroll-proportion="-58.923077" vertical-offset="83" max-vertical-offset="1751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/webvolant/abadmin/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="590" selection-end="590" vertical-scroll-proportion="0.37362638" vertical-offset="153" max-vertical-offset="935">
+        <state line="867" column="22" selection-start="16269" selection-end="16269" vertical-scroll-proportion="0.488117" vertical-offset="14472" max-vertical-offset="16405">
           <folding />
         </state>
       </provider>
