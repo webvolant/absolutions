@@ -54,10 +54,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
+            'host'      => env('DB_HOST', 'mysql6.locum.ru'),
+            'database'  => env('DB_DATABASE', 'volant24_abs-i58'),
+            'username'  => env('DB_USERNAME', 'volant24_abs-i58'),
+            'password'  => env('DB_PASSWORD', 'Fd8kpM90D'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
