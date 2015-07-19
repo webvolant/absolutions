@@ -290,7 +290,7 @@ a.button{
     font-size: 16px;
     text-shadow: none;
     position: relative;
-    left:40px;
+    left:20px;
 }
 
 .topmenu li a:hover, .topmenu li a.active,.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{

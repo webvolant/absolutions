@@ -26,7 +26,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="708" column="4" selection-start="26369" selection-end="26369" vertical-scroll-proportion="-7.882353" vertical-offset="9203" max-vertical-offset="10693">
+            <state line="708" column="4" selection-start="26369" selection-end="26369" vertical-scroll-proportion="-149.90196" vertical-offset="1960" max-vertical-offset="10693">
               <folding>
                 <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#html#0" expanded="false" />
@@ -45,19 +45,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="32" selection-start="482" selection-end="482" vertical-scroll-proportion="0.46703297" vertical-offset="0" max-vertical-offset="3740">
+            <state line="15" column="32" selection-start="482" selection-end="482" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="3740">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="component_links_effects.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/abtemplate/css/component_links_effects.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="581" column="15" selection-start="12975" selection-end="12975" vertical-scroll-proportion="-7.96" vertical-offset="9678" max-vertical-offset="17051">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/abtemplate/template.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1042" column="54" selection-start="19311" selection-end="19311" vertical-scroll-proportion="-15.24" vertical-offset="17333" max-vertical-offset="19618">
+            <state line="292" column="10" selection-start="5655" selection-end="5655" vertical-scroll-proportion="0.50639856" vertical-offset="4687" max-vertical-offset="19618">
               <folding />
             </state>
           </provider>
@@ -67,7 +76,10 @@
         <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/jobs.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="5" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="408">
-              <folding />
+              <folding>
+                <marker date="1437253164766" expanded="true" signature="177:282" placeholder="..." />
+                <marker date="1437253164766" expanded="true" signature="210:226" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Models/Post.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/database/migrations/2015_07_06_171149_create_posts_table.php" />
         <option value="$PROJECT_DIR$/vendor/webvolant/abposts/src/Http/Controllers/FrontPostController.php" />
@@ -159,9 +170,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PortfolioController.php" />
         <option value="$PROJECT_DIR$/resources/views/abtemplate/contact.blade.php" />
         <option value="$PROJECT_DIR$/public/abtemplate/js/app.js" />
-        <option value="$PROJECT_DIR$/public/abtemplate/template.css" />
         <option value="$PROJECT_DIR$/resources/views/abtemplate/index.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/public/abtemplate/css/component_links_effects.css" />
+        <option value="$PROJECT_DIR$/public/abtemplate/template.css" />
       </list>
     </option>
   </component>
@@ -917,6 +929,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abtemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1100,11 +1134,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/button-groups.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4250" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/abtemplate/bootstrap-3.3.5/less/.csscomb.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5270" />
@@ -1373,24 +1402,9 @@
     <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/jobs.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="5" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/abtemplate/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1042" column="54" selection-start="19311" selection-end="19311" vertical-scroll-proportion="-15.24" vertical-offset="17333" max-vertical-offset="19618">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="708" column="4" selection-start="26369" selection-end="26369" vertical-scroll-proportion="-7.882353" vertical-offset="9203" max-vertical-offset="10693">
           <folding>
-            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#html#0" expanded="false" />
+            <marker date="1437253164766" expanded="true" signature="177:282" placeholder="..." />
+            <marker date="1437253164766" expanded="true" signature="210:226" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1404,7 +1418,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="482" selection-end="482" vertical-scroll-proportion="0.46703297" vertical-offset="0" max-vertical-offset="3740">
+        <state line="15" column="32" selection-start="482" selection-end="482" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="3740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/abtemplate/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="708" column="4" selection-start="26369" selection-end="26369" vertical-scroll-proportion="-149.90196" vertical-offset="1960" max-vertical-offset="10693">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/css/component_links_effects.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="581" column="15" selection-start="12975" selection-end="12975" vertical-scroll-proportion="-7.96" vertical-offset="9678" max-vertical-offset="17051">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/abtemplate/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="292" column="10" selection-start="5655" selection-end="5655" vertical-scroll-proportion="0.50639856" vertical-offset="4687" max-vertical-offset="19618">
           <folding />
         </state>
       </provider>

@@ -13,7 +13,7 @@ body {
 nav a {
 	position: relative;
 	display: inline-block;
-	margin: 15px 25px;
+    margin: 10px 0px;
 	outline: none;
 	color: #fff;
 	text-decoration: none;
@@ -579,7 +579,7 @@ nav a:focus {
 
 /* Effect 14: border switch */
 .cl-effect-14 a {
-	padding: 0 20px;
+	padding: 0 0px;
 	height: 45px;
 	line-height: 45px;
 }
