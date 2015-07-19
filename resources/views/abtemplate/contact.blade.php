@@ -22,6 +22,12 @@
             @endif
 
         <h3 class="center-block"><ul class="contacts marginleft20">
+                <li class="marginleft20">
+                        <span class="fa-stack fa-lg color">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                        </span>Баркалов Антон
+                </li>
         <li class="marginleft20">
                         <span class="fa-stack fa-lg color">
                           <i class="fa fa-circle fa-stack-2x"></i>
@@ -67,7 +73,7 @@
 
                                 <div class="alert alert-info" role="alert">
                                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <p>Если у вас есть вопросы, или вы решились на разработку проекта, тогда просто заполните форму ниже. Мы всегда открыты для работы с вами!</p>
+                                    <p>Давайте начнем наш диалог... Мы всегда открыты для работы с вами! </p>
                                 </div>
                                 <div class="form-group has-feedback">
                                     {!! Form::text('title',null, array('class'=>'form-control', 'placeholder'=>'Тема сообщения')) !!}

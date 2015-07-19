@@ -540,169 +540,161 @@
 
 <!-- Modal content-->
 <div class="modal-content">
-<div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal">&times;</button>
-    <h4 class="modal-title">Услуги и цены</h4>
-</div>
-<div class="modal-body">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Услуги и цены</h4>
+    </div>
+    <div class="modal-body">
+        <div class="block-price visit fl">
+            <h2 class="title">Сайт-визитка</h2>
+            <!-- CONTENT -->
+            <div class="content">
+                <p class="price">
+                    <sup>от </sup>
+                    <span> 500</span>
+                    <sub>$</sub>
+                </p>
+                <p class="hint">Самый быстрый и недорогой способ заявить о себе.</p>
+                <hr class="divider"/>
+                <p class="hint">Сайты: персональные, фирм, промо-сайты.</p>
+            </div>
+            <!-- /CONTENT -->
 
-
-    <div class="block-price visit fl">
-        <h2 class="title">Сайт-визитка</h2>
-        <!-- CONTENT -->
-        <div class="content">
-            <p class="price">
-                <sup>от </sup>
-                <span> 500</span>
-                <sub>$</sub>
-            </p>
-            <p class="hint">Самый быстрый и недорогой способ заявить о себе.</p>
-            <hr class="divider"/>
-            <p class="hint">Сайты: персональные, фирм, промо-сайты.</p>
-        </div>
-        <!-- /CONTENT -->
-
-        <!-- FEATURES -->
-        <ul class="features">
-            <h4>Услуги</h4>
-            <li><i class="fa fa-diamond fa-x text-center"></i> Фирменный стиль</li>
-            <li><i class="fa fa-code fa-x text-center"></i> Верстка и программирование</li>
-            <li><i class="fa fa-dashboard fa-x text-center"></i> Административная панель</li>
-            <hr class="divider"/>
-            <li><i class="fa fa-tasks fa-x text-center"></i> <b>Модули</b></li>
+            <!-- FEATURES -->
             <ul class="features">
-                <li> Карта-схема проезда</li>
-                <li> Форма обратной связи</li>
-                <li> Галерея</li>
-                <li> Раздел новостей</li>
-                <li> Социальные кнопки</li>
-                <li> Поиск</li>
+                <h4>Услуги</h4>
+                <li><i class="fa fa-diamond fa-x text-center"></i> Фирменный стиль</li>
+                <li><i class="fa fa-code fa-x text-center"></i> Верстка и программирование</li>
+                <li><i class="fa fa-dashboard fa-x text-center"></i> Административная панель</li>
+                <hr class="divider"/>
+                <li><i class="fa fa-tasks fa-x text-center"></i> <b>Модули</b></li>
+                <ul class="features">
+                    <li> Карта-схема проезда</li>
+                    <li> Форма обратной связи</li>
+                    <li> Галерея</li>
+                    <li> Раздел новостей</li>
+                    <li> Социальные кнопки</li>
+                    <li> Поиск</li>
+                </ul>
+                <li> <b><i class="fa fa-flask fa-x text-center"></i> Расширение стандартного функционала</b></li>
+                <hr class="divider"/>
+                <li><i class="fa fa-clock-o fa-x text-center"></i> Срок разработки: <b>от 10 дней</b></li>
+                <hr class="divider"/>
+                <li><i class="fa fa-folder fa-x text-center"></i> Хостинг - <b>1 год</b></li>
+                <li><i class="fa fa-external-link fa-x text-center"></i> Доменное имя - <b>1 год</b></li>
             </ul>
-            <li> <b><i class="fa fa-flask fa-x text-center"></i> Расширение стандартного функционала</b></li>
-            <hr class="divider"/>
-            <li><i class="fa fa-clock-o fa-x text-center"></i> Срок разработки: <b>от 10 дней</b></li>
-            <hr class="divider"/>
-            <li><i class="fa fa-folder fa-x text-center"></i> Хостинг - <b>1 год</b></li>
-            <li><i class="fa fa-external-link fa-x text-center"></i> Доменное имя - <b>1 год</b></li>
-        </ul>
-        <!-- /FEATURES -->
+            <!-- /FEATURES -->
 
-        <!-- PT-FOOTER -->
-        <div class="pt-footer">
+            <!-- PT-FOOTER -->
+            <div class="pt-footer">
 
+            </div>
+            <!-- /PT-FOOTER -->
         </div>
-        <!-- /PT-FOOTER -->
-    </div>
+        <div class="block-price corporate fl">
+            <h2 class="title">Сайт-корпоративный</h2>
+            <!-- CONTENT -->
+            <div class="content">
+                <p class="price">
+                    <sup>от </sup>
+                    <span> 1000</span>
+                    <sub>$</sub>
+                </p>
+                <p class="hint">Сайт для крупной компании с большими возможностями.</p>
+                <hr class="divider"/>
+                <p class="hint">Сайты: корпоративные, порталы.</p>
+            </div>
+            <!-- /CONTENT -->
 
-
-    <div class="block-price corporate fl">
-        <h2 class="title">Сайт-корпоративный</h2>
-        <!-- CONTENT -->
-        <div class="content">
-            <p class="price">
-                <sup>от </sup>
-                <span> 1000</span>
-                <sub>$</sub>
-            </p>
-            <p class="hint">Сайт для крупной компании с большими возможностями.</p>
-            <hr class="divider"/>
-            <p class="hint">Сайты: корпоративные, порталы.</p>
-        </div>
-        <!-- /CONTENT -->
-
-        <!-- FEATURES -->
-        <ul class="features">
-            <h4>Услуги</h4>
-            <li><i class="fa fa-diamond fa-x text-center"></i> Фирменный стиль</li>
-            <li><i class="fa fa-code fa-x text-center"></i> Верстка и программирование</li>
-            <li><i class="fa fa-dashboard fa-x text-center"></i> Административная панель</li>
-            <hr class="divider"/>
-            <li><i class="fa fa-tasks fa-x text-center"></i> <b>Модули</b></li>
+            <!-- FEATURES -->
             <ul class="features">
-                <li> Карта-схема проезда</li>
-                <li> Форма обратной связи</li>
-                <li> Галерея</li>
-                <li> Раздел новостей</li>
-                <li> Социальные кнопки</li>
-                <li> Поиск</li>
-                <li> Каталоги продукции</li>
-                <li> Системы отчетности</li>
-                <li> Функционал разработанный под задачу</li>
+                <h4>Услуги</h4>
+                <li><i class="fa fa-diamond fa-x text-center"></i> Фирменный стиль</li>
+                <li><i class="fa fa-code fa-x text-center"></i> Верстка и программирование</li>
+                <li><i class="fa fa-dashboard fa-x text-center"></i> Административная панель</li>
+                <hr class="divider"/>
+                <li><i class="fa fa-tasks fa-x text-center"></i> <b>Модули</b></li>
+                <ul class="features">
+                    <li> Карта-схема проезда</li>
+                    <li> Форма обратной связи</li>
+                    <li> Галерея</li>
+                    <li> Раздел новостей</li>
+                    <li> Социальные кнопки</li>
+                    <li> Поиск</li>
+                    <li> Каталоги продукции</li>
+                    <li> Системы отчетности</li>
+                    <li> Функционал разработанный под задачу</li>
 
+                </ul>
+                <li> <b><i class="fa fa-flask fa-x text-center"></i> Расширение стандартного функционала</b></li>
+                <hr class="divider"/>
+                <li><i class="fa fa-clock-o fa-x text-center"></i> Срок разработки: <b>от 25 дней</b></li>
+                <hr class="divider"/>
+                <li><i class="fa fa-folder fa-x text-center"></i> Хостинг - <b>1 год</b></li>
+                <li><i class="fa fa-external-link fa-x text-center"></i> Доменное имя - <b>1 год</b></li>
             </ul>
-            <li> <b><i class="fa fa-flask fa-x text-center"></i> Расширение стандартного функционала</b></li>
-            <hr class="divider"/>
-            <li><i class="fa fa-clock-o fa-x text-center"></i> Срок разработки: <b>от 25 дней</b></li>
-            <hr class="divider"/>
-            <li><i class="fa fa-folder fa-x text-center"></i> Хостинг - <b>1 год</b></li>
-            <li><i class="fa fa-external-link fa-x text-center"></i> Доменное имя - <b>1 год</b></li>
-        </ul>
-        <!-- /FEATURES -->
+            <!-- /FEATURES -->
 
-        <!-- PT-FOOTER -->
-        <div class="pt-footer">
+            <!-- PT-FOOTER -->
+            <div class="pt-footer">
 
+            </div>
+            <!-- /PT-FOOTER -->
         </div>
-        <!-- /PT-FOOTER -->
-    </div>
+        <div class="block-price store fl">
+            <h2 class="title">Интернет - магазин</h2>
+            <!-- CONTENT -->
+            <div class="content">
+                <p class="price">
+                    <sup>от </sup>
+                    <span> 1500</span>
+                    <sub>$</sub>
+                </p>
+                <p class="hint">Сайт - магазин, работающий без перерыва и выходных.</p>
+                <hr class="divider"/>
+                <p class="hint">Сайты: продающие онлайн.</p>
+            </div>
+            <!-- /CONTENT -->
 
-    <div class="block-price store fl">
-        <h2 class="title">Интернет - магазин</h2>
-        <!-- CONTENT -->
-        <div class="content">
-            <p class="price">
-                <sup>от </sup>
-                <span> 1500</span>
-                <sub>$</sub>
-            </p>
-            <p class="hint">Сайт - магазин, работающий без перерыва и выходных.</p>
-            <hr class="divider"/>
-            <p class="hint">Сайты: продающие онлайн.</p>
-        </div>
-        <!-- /CONTENT -->
-
-        <!-- FEATURES -->
-        <ul class="features">
-            <h4>Услуги</h4>
-            <li><i class="fa fa-diamond fa-x text-center"></i> Фирменный стиль</li>
-            <li><i class="fa fa-code fa-x text-center"></i> Верстка и программирование</li>
-            <li><i class="fa fa-dashboard fa-x text-center"></i> Административная панель</li>
-            <hr class="divider"/>
-            <li><i class="fa fa-tasks fa-x text-center"></i> <b>Модули</b></li>
+            <!-- FEATURES -->
             <ul class="features">
-                <li> Карта-схема проезда</li>
-                <li> Форма обратной связи</li>
-                <li> Галерея</li>
-                <li> Раздел новостей</li>
-                <li> Социальные кнопки</li>
-                <li> Поиск</li>
-                <li> Каталоги продукции</li>
-                <li> Отчетность</li>
-                <li> Функционал интернет магазина</li>
+                <h4>Услуги</h4>
+                <li><i class="fa fa-diamond fa-x text-center"></i> Фирменный стиль</li>
+                <li><i class="fa fa-code fa-x text-center"></i> Верстка и программирование</li>
+                <li><i class="fa fa-dashboard fa-x text-center"></i> Административная панель</li>
+                <hr class="divider"/>
+                <li><i class="fa fa-tasks fa-x text-center"></i> <b>Модули</b></li>
+                <ul class="features">
+                    <li> Карта-схема проезда</li>
+                    <li> Форма обратной связи</li>
+                    <li> Галерея</li>
+                    <li> Раздел новостей</li>
+                    <li> Социальные кнопки</li>
+                    <li> Поиск</li>
+                    <li> Каталоги продукции</li>
+                    <li> Отчетность</li>
+                    <li> Функционал интернет магазина</li>
 
+                </ul>
+                <li> <b><i class="fa fa-flask fa-x text-center"></i> Расширение стандартного функционала</b></li>
+                <hr class="divider"/>
+                <li><i class="fa fa-clock-o fa-x text-center"></i> Срок разработки: <b>от 25 дней</b></li>
+                <hr class="divider"/>
+                <li><i class="fa fa-folder fa-x text-center"></i> Хостинг - <b>1 год</b></li>
+                <li><i class="fa fa-external-link fa-x text-center"></i> Доменное имя - <b>1 год</b></li>
             </ul>
-            <li> <b><i class="fa fa-flask fa-x text-center"></i> Расширение стандартного функционала</b></li>
-            <hr class="divider"/>
-            <li><i class="fa fa-clock-o fa-x text-center"></i> Срок разработки: <b>от 25 дней</b></li>
-            <hr class="divider"/>
-            <li><i class="fa fa-folder fa-x text-center"></i> Хостинг - <b>1 год</b></li>
-            <li><i class="fa fa-external-link fa-x text-center"></i> Доменное имя - <b>1 год</b></li>
-        </ul>
-        <!-- /FEATURES -->
+            <!-- /FEATURES -->
 
-        <!-- PT-FOOTER -->
-        <div class="pt-footer">
+            <!-- PT-FOOTER -->
+            <div class="pt-footer">
 
+            </div>
+            <!-- /PT-FOOTER -->
         </div>
-        <!-- /PT-FOOTER -->
     </div>
-
-
-
-</div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-    </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+        </div>
 </div>
 
 </div>

@@ -998,7 +998,17 @@ ul.slide{
     background: #3EC6E0;
 }
 
+#modalPrice .modal-title{
+    text-align: center;
+}
 
+#modalPrice .modal-header{
+     border-bottom:none;
+ }
+
+#modalPrice .modal-body {
+    padding: 0px;
+}
 
 
 
@@ -1035,12 +1045,14 @@ h2.title {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background: #F2F2F2;
+    /*background: #F2F2F2;*/
     font-family: 'Droid Sans', sans-serif;
     line-height: 1;
     font-size: 16px;
-    border: 1px solid #F0F0F0;
-    box-shadow: 0px 2px 15px rgba(207, 207, 207, 0.5);
+    /*border: 1px solid #F0F0F0;
+    box-shadow: 0px 2px 15px rgba(207, 207, 207, 0.5);*/
+    border: 1px solid rgba(232, 232, 232, 1);
+    box-shadow: 2px 2px 4px rgba(29, 50, 56, 0.05);
 }
 
 .wrapper {
@@ -1115,12 +1127,12 @@ hr.divider{
     list-style-type: none;
     background: #FFFFFF;
     text-align: left;
-    color: #6B6B6B;
+    color: #595959;
     padding: 10px 15%;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 .features li{
-    padding:10px 0;
+    padding:5px 0;
     width: 100%;
 }
 .features li span{
