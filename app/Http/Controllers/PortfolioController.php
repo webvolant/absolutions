@@ -29,7 +29,6 @@ class PortfolioController extends Controller
     }
 
     public function contacts(){
-        //Mail::later(5, 'emails.welcome', $data, function($message)
         if (\Request::all()){
             $validator = \Validator::make(\Request::all(), [
                 'email' => 'required',
@@ -39,11 +38,12 @@ class PortfolioController extends Controller
                 return \Redirect::to('contacts')->withErrors($validator)->withInput();
             }
             else{
-                Mail::send('emails.welcome', array('key' => 'value'), function($message)
+                Mail::later(10, 'emails.welcome', array('key' => 'value'), function($message)
                 {
-                    $message->to('barkalov_anton@mail.ru', 'Anton Barkalov')->subject('Заказ!');
+                    $message->from( \Request::get('email'), \Request::get('title') );
+                    $message->to('box@abs-it.net', 'Anton Barkalov')->subject('ABS-IT.NET - новый клиент написал через форму сайта...');
                 });
-                return \Redirect::to('/');
+                return \Redirect::route('contacts')->with('message', 'Вы успешно отправили сообщение...');
             }
         }
         return view('abtemplate.contact');

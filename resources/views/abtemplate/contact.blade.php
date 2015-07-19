@@ -10,15 +10,23 @@
     <div class="margintop"></div>
     <div class="fluid-container">
         <div class="container content">
+            <div class="clear"></div>
 
+            @if (Session::has('message'))
+            <div class="panel panel-success">
+                <div class="panel-heading">Внимание!</div>
+                <div class="panel-body">
+                    {{ Session::get('message') }}
+                </div>
+            </div>
+            @endif
 
-                <div class="clear"></div>
-<h3 class="center-block"><ul class="contacts marginleft20">
+        <h3 class="center-block"><ul class="contacts marginleft20">
         <li class="marginleft20">
                         <span class="fa-stack fa-lg color">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                        </span>barkalov_anton@mail.ru
+                        </span>box@abs-it.net
         </li>
         <li class="marginleft20">
                         <span class="fa-stack fa-lg color">

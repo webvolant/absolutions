@@ -72,11 +72,7 @@ app.controller('sliderCtrl', function ($scope, $http, $timeout,$interval) {
     $http.get('/getSlides').success(function(data){
 
         $scope.slides = data;
-        //$scope.currentPage = 1; //current page
-        //$scope.entryLimit = 1; //max no of items to display in a page
-        //$scope.filteredItems = $scope.list.length; //Initially for no filter
-        //$scope.totalItems = $scope.list.length;
-            $scope.$emit('UNLOAD');
+        $scope.$emit('UNLOAD');
     }
 
     );
@@ -85,12 +81,6 @@ app.controller('sliderCtrl', function ($scope, $http, $timeout,$interval) {
 
     $scope.setCurrentSlideIndex = function (index) {
         $scope.interval = 0;
-        //var k = jQuery('.slider_wrap').height();
-        //jQuery('.slider_wrap').css({'height':k});
-
-        //jQuery('.round-left').css({'position':'absolute','top':k/2-30,'z-index':9998});
-        //jQuery('.round-right').css({'position':'absolute','top':k/2-30,'z-index':9998});
-
         $scope.currentIndex = index;
     };
 
@@ -100,25 +90,12 @@ app.controller('sliderCtrl', function ($scope, $http, $timeout,$interval) {
 
     $scope.next = function() {
         $scope.interval = 0;
-        //var k = jQuery('.slider_wrap').height();
-        //jQuery('.slider_wrap').css({'height':k});
-
-        //кнопки на место
-        //jQuery('.round-left').css({'position':'absolute','top':k/2-30,'z-index':9998});
-        //jQuery('.round-right').css({'position':'absolute','top':k/2-30,'z-index':9998});
-
         $scope.currentIndex < $scope.slides.length - 1 ? $scope.currentIndex++ : $scope.currentIndex = 0;
     };
 
     $scope.prev = function() {
 
         $scope.interval = 0;
-        //var k = jQuery('.slider_wrap').height();
-        //jQuery('.slider_wrap').css({'height':k});
-
-        //jQuery('.round-left').css({'position':'absolute','top':k/2-30,'z-index':9998});
-        //jQuery('.round-right').css({'position':'absolute','top':k/2-30,'z-index':9998});
-
         $scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.slides.length - 1;
     };
 
