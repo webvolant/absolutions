@@ -2,7 +2,7 @@
 
 @section('title')
     @parent
-    Наши работы
+    {!! trans("ablang.job") !!}
 @stop
 
 @section('content')

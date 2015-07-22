@@ -65,7 +65,7 @@ a.button{
 }
 
 .service-icon{
-    padding:20px;
+    /*padding:20px;
     border-radius: 130px;
     margin-right: 20px;
     background: #fff;
@@ -74,13 +74,18 @@ a.button{
     margin-top: 20px;
     font-size: 13px;
     margin-bottom: 15px;
-    width:85px;
+    width:85px;*/
+
+}
+
+.border{
+    color:white;
 }
 
 .service-icon:hover{
-    color: #fff;
+    /*color: #fff;
     background-color: #2490BC;
-    border: 1px solid #2490BC;
+    border: 1px solid #2490BC;*/
     transform: rotate( 360deg );
 
     -webkit-transition: all 1s ease;
@@ -290,7 +295,6 @@ a.button{
     font-size: 16px;
     text-shadow: none;
     position: relative;
-    left:20px;
 }
 
 .topmenu li a:hover, .topmenu li a.active,.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
@@ -322,7 +326,7 @@ a.button{
 
 
 .margintop{
-    height: 100px;
+    height: 87px;
 }
 
 
@@ -339,6 +343,49 @@ ul.contacts li{
 }
 
 
+/*********************************************************************/
+
+
+.list_none_lang{
+    list-style: none;
+    position: relative;
+}
+
+.left_lang li{
+    float: left;
+    margin-left:5px;
+
+}
+
+.left_lang img{
+    width:48px;
+}
+
+.left_lang img{
+     -webkit-filter: grayscale(50%);
+     -moz-filter: grayscale(50%);
+     -o-filter: grayscale(50%);
+     -ms-filter: grayscale(50%);
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+     opacity: 0.8;
+ }
+
+.left_lang img:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 1;
+}
 
 /*********************************************************************/
 
@@ -810,6 +857,7 @@ ul.slide{
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    opacity: 0.7;
 }
 
 .client_logo:hover{
@@ -963,6 +1011,12 @@ ul.slide{
 
 
 
+.fa {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
 .modal-dialog{
     width: 90%;
     z-index: 9001;
@@ -971,11 +1025,11 @@ ul.slide{
 
 
 .store .content, .store .pt-footer {
-    background: #e75753;
+    background: #F0AE49;
 }
 
 .store .title {
-    background: #d3524e;
+    background: #EAA439;
 }
 
 

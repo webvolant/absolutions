@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -151,7 +151,8 @@ return [
         webvolant\abadmin\AbAdminServiceProvider::class,
         webvolant\abslider\AbSliderServiceProvider::class,
         webvolant\abposts\AbPostsServiceProvider::class,
-        Tsawler\Laravelfilemanager\LaravelFilemanagerServiceProvider::class
+        Tsawler\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
+        Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class
 
 
     ],
@@ -208,6 +209,7 @@ return [
         'AbHtml' => webvolant\abadmin\Models\AbHtml::class,
         'Slider' => webvolant\abslider\Models\Slider::class,
         'Post' => webvolant\abposts\Models\Post::class,
+        'LaravelLocalization'   => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class
 
     ],
 

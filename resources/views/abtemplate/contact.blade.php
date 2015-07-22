@@ -2,7 +2,7 @@
 
 @section('title')
     @parent
-    Контакты
+    {!! trans("ablang.contacts") !!}
 @stop
 
 
@@ -14,7 +14,7 @@
 
             @if (Session::has('message'))
             <div class="panel panel-success">
-                <div class="panel-heading">Внимание!</div>
+                <div class="panel-heading">{!! trans("ablang.attention") !!}</div>
                 <div class="panel-body">
                     {{ Session::get('message') }}
                 </div>
@@ -26,7 +26,7 @@
                         <span class="fa-stack fa-lg color">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-                        </span>Баркалов Антон
+                        </span>{!! trans("ablang.contact_name") !!}
                 </li>
         <li class="marginleft20">
                         <span class="fa-stack fa-lg color">
@@ -73,10 +73,10 @@
 
                                 <div class="alert alert-info" role="alert">
                                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <p>Давайте начнем наш диалог... Мы всегда открыты для работы с вами! </p>
+                                    <p>{!! trans("ablang.contact_alert") !!} </p>
                                 </div>
                                 <div class="form-group has-feedback">
-                                    {!! Form::text('title',null, array('class'=>'form-control', 'placeholder'=>'Тема сообщения')) !!}
+                                    {!! Form::text('title',null, array('class'=>'form-control', 'placeholder'=>trans('ablang.contact_subject') )) !!}
                                     <span class="glyphicon glyphicon-comment form-control-feedback"></span>
                                     @if ($errors->first('title'))
                                     <div class="alert alert-danger" role="alert"><?php echo $errors->first('title'); ?></div>
@@ -94,7 +94,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    {!! Form::textarea('description', null, array('id'=>'description', 'class'=>'form-control', 'placeholder'=>'Описание')) !!}
+                                    {!! Form::textarea('description', null, array('id'=>'description', 'class'=>'form-control', 'placeholder'=>trans('ablang.contact_text'))) !!}
                                     @if ($errors->first('description'))
                                     <div class="alert alert-danger" role="alert"><?php echo $errors->first('description'); ?></div>
                                     @else
@@ -102,7 +102,7 @@
                                 </div>
 
                                 <div class="pull-right">
-                                    <button class="btn btn-info btn" type="submit"><i class="fa fa-paper-plane-o"></i> Отправить сообщение</button>
+                                    <button class="btn btn-info btn" type="submit"><i class="fa fa-paper-plane-o"></i> {!! trans("ablang.send_message") !!}</button>
                                 </div>
 
                             </div><!-- /.col -->

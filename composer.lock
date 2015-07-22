@@ -7,6 +7,61 @@
     "hash": "77607a4b00358bb1552fbfea47dec18d",
     "packages": [
         {
+            "name": "baum/baum",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/etrepat/baum.git",
+                "reference": "9290bed862d329aaaef666a71e0a2734afc28286"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/etrepat/baum/zipball/9290bed862d329aaaef666a71e0a2734afc28286",
+                "reference": "9290bed862d329aaaef666a71e0a2734afc28286",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "5.*",
+                "illuminate/database": "5.*",
+                "illuminate/events": "5.*",
+                "illuminate/filesystem": "5.*",
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "d11wtq/boris": "~1.0.10",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Baum": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Estanislau Trepat",
+                    "email": "estanis@etrepat.com",
+                    "homepage": "http://etrepat.com"
+                }
+            ],
+            "description": "Baum is an implementation of the Nested Set pattern for Eloquent models.",
+            "keywords": [
+                "Laravel 4",
+                "database",
+                "eloquent",
+                "laravel",
+                "laravel 5",
+                "nested set"
+            ],
+            "time": "2015-03-04 12:07:54"
+        },
+        {
             "name": "classpreloader/classpreloader",
             "version": "2.0.0",
             "source": {
@@ -729,16 +784,16 @@
         },
         {
             "name": "laravelcollective/html",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LaravelCollective/html.git",
-                "reference": "0918dac79ff8d294a92048f2d8b3c0c3078139b0"
+                "reference": "c93974c835aebd1fc49d4aa897b30dd507b08a62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/0918dac79ff8d294a92048f2d8b3c0c3078139b0",
-                "reference": "0918dac79ff8d294a92048f2d8b3c0c3078139b0",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/c93974c835aebd1fc49d4aa897b30dd507b08a62",
+                "reference": "c93974c835aebd1fc49d4aa897b30dd507b08a62",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +830,7 @@
                     "email": "adam@laravelcollective.com"
                 }
             ],
-            "time": "2015-06-18 02:16:50"
+            "time": "2015-07-11 09:34:06"
         },
         {
             "name": "league/flysystem",
@@ -857,6 +912,54 @@
                 "storage"
             ],
             "time": "2015-07-13 09:25:28"
+        },
+        {
+            "name": "mcamara/laravel-localization",
+            "version": "1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mcamara/laravel-localization.git",
+                "reference": "a988746e18aa90fbdbbcfc13c3c17ee74d128e06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mcamara/laravel-localization/zipball/a988746e18aa90fbdbbcfc13c3c17ee74d128e06",
+                "reference": "a988746e18aa90fbdbbcfc13c3c17ee74d128e06",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "3.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [],
+                "psr-0": {
+                    "Mcamara\\LaravelLocalization": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Cámara",
+                    "email": "mcamara88@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy localization for Laravel",
+            "homepage": "https://github.com/mcamara/laravel-localization",
+            "keywords": [
+                "laravel",
+                "localization",
+                "php"
+            ],
+            "time": "2015-06-28 12:06:58"
         },
         {
             "name": "monolog/monolog",
@@ -1197,16 +1300,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.5.1",
+            "version": "v0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "e5a46a767928e85f1f47dda654beda8c680ddd94"
+                "reference": "aaf8772ade08b5f0f6830774a5d5c2f800415975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/e5a46a767928e85f1f47dda654beda8c680ddd94",
-                "reference": "e5a46a767928e85f1f47dda654beda8c680ddd94",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/aaf8772ade08b5f0f6830774a5d5c2f800415975",
+                "reference": "aaf8772ade08b5f0f6830774a5d5c2f800415975",
                 "shasum": ""
             },
             "require": {
@@ -1265,7 +1368,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2015-07-03 16:48:00"
+            "time": "2015-07-16 15:26:57"
         },
         {
             "name": "spatie/laravel-backup",
@@ -2170,17 +2273,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/webvolant/abadmin.git",
-                "reference": "f9c9b7c1a62f3aa9de11779ce9c2d2ffda5ce70e"
+                "reference": "6789c013ef959b5a5acbe5eb52f62ba78d2656c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webvolant/abadmin/zipball/f9c9b7c1a62f3aa9de11779ce9c2d2ffda5ce70e",
-                "reference": "f9c9b7c1a62f3aa9de11779ce9c2d2ffda5ce70e",
+                "url": "https://api.github.com/repos/webvolant/abadmin/zipball/6789c013ef959b5a5acbe5eb52f62ba78d2656c0",
+                "reference": "6789c013ef959b5a5acbe5eb52f62ba78d2656c0",
                 "shasum": ""
             },
             "require": {
+                "baum/baum": "~1.1",
                 "intervention/image": "2.*",
                 "laravelcollective/html": "~5.0",
+                "mcamara/laravel-localization": "1.0.*",
                 "php": ">=5.3.0",
                 "pqb/filemanager-laravel": "master",
                 "spatie/laravel-backup": "master"
@@ -2233,7 +2338,7 @@
                 "source": "https://github.com/webvolant/abadmin/tree/master",
                 "issues": "https://github.com/webvolant/abadmin/issues"
             },
-            "time": "2015-07-14 16:28:56"
+            "time": "2015-07-19 20:22:33"
         },
         {
             "name": "webvolant/abposts",
