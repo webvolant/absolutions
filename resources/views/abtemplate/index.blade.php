@@ -92,6 +92,12 @@
 
 
 <nav class="topmenu navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="up_container container">
+        <div class="pull-right">
+            <a href="mailto:box@abs-it.net"><i class="fa fa-envelope-o"></i>e-mail: box@abs-it.net</a>
+            <i class="fa fa-skype"></i>skype: volant247
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">

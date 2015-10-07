@@ -1,6 +1,11 @@
 
+.up_container a:hover{
+    color: white;
+}
 
-
+.up_container a{
+    font-size: 12px;
+}
 
 * {margin: 0; padding: 0;} /* обнуляем отступы */
 body {
@@ -279,7 +284,7 @@ a.button{
     width: auto;
     display: block;
     color: white;
-    padding-top:15px;
+    padding-top:0px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
     background: inherit;
 }
@@ -326,7 +331,7 @@ a.button{
 
 
 .margintop{
-    height: 87px;
+    height: 107px;
 }
 
 
